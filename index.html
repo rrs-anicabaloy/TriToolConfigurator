@@ -1,0 +1,2480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <title>TriTool Technologies Configuration</title>
+  </head>
+  <body>
+    <div class="navigation shadow-lg p-3 bg-body rounded">
+      <div class="container">
+        <div class="brand">
+          <a href="#"
+            ><img
+              src="images/tt-logo-corp.png"
+              alt="Tri Tool Technologies Logo"
+          /></a>
+        </div>
+        <div class="links">
+          <ul>
+            <li>
+              <a target="_blank" href="https://www.tritool.com/product-catalog"
+                >Shop Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--End of .navigation-->
+    <div id="hero">
+      <!--insert background imagery for #hero-->
+      <div class="heroContent">
+        <div class="heroHeading">
+          <h1>Not sure what tool you need?</h1>
+          <h2 class="h2-styling">
+            Answer the questions below and find<br />the right machine for your
+            project.
+          </h2>
+          &nbsp;
+        </div>
+        <!-- <div class="heroButton">
+                <a href="https://www.tritool.com/product-catalog" class="btn btn-hero btn-primary has-arrow" target="_blank"><p>See all tools at TriTool.com</p><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#fff" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                </svg></span></a>
+            </div> -->
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                What type of pipe are you working on?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div class="answerOne">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="openPipe"
+                    name="openPipe"
+                    id="openPipe"
+                  />
+                  <label for="openPipe">Open End Pipe</label>
+                </div>
+                <div class="answerOne">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="inlinePipe"
+                    name="inlinePipe"
+                    id="inlinePipe"
+                    id=""
+                  />
+                  <label for="inlinePipe">Inline Pipe</label>
+                </div>
+              </div>
+              <!--END OF ACCORDION BODY-->
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                What pipe size are you working with?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div id="zeroToTwo">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="zeroToTwo"
+                    name="zeroToTwo"
+                    class="zeroToTwo"
+                  />
+                  <label for="zeroToTwo">0" - 2" (0mm - 50.8mm)</label>
+                </div>
+                <div class="twoToFive">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="twoToFive"
+                    name="twoToFive"
+                    id="twoToFive"
+                  />
+                  <label for="twoToFive">2" - 5" (50.8mm - 127mm)</label>
+                </div>
+                <div class="fiveToTen">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="fiveToTen"
+                    name="fiveToTen"
+                    id="fiveToTen"
+                  />
+                  <label for="fiveToTen">5" - 10" (127mm - 254mm)</label>
+                </div>
+                <div class="tenToFourteen">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="tenToFourteen"
+                    name="tenToFourteen"
+                    id="tenToFourteen"
+                  />
+                  <label for="tenToFourteen">10" - 14" (254mm - 355.6mm)</label>
+                </div>
+                <div class="fourteenToTwenty">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="fourteenToTwenty"
+                    name="fourteenToTwenty"
+                    id="fourteenToTwenty"
+                  />
+                  <label for="fourteenToTwenty"
+                    >14" - 20" (355.6mm - 508mm)</label
+                  >
+                </div>
+                <div class="twentyToThirty">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="twentyToThirty"
+                    name="twentyToThirty"
+                    id="twentyToThirty"
+                  />
+                  <label for="twentyToThirty">20" - 30" (508mm - 762mm)</label>
+                </div>
+                <div class="thirtyToFourty">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="thirtyToFourty"
+                    name="thirtyToFourty"
+                    id="thirtyToFourty"
+                  />
+                  <label for="thirtyToFourty">30" - 40" (762mm - 1016mm)</label>
+                </div>
+                <div class="fortyToSixty">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="fortyToSixty"
+                    name="fortyToSixty"
+                    id="fortyToSixty"
+                  />
+                  <label for="fortyToSixty">40" - 60" (1016mm - 1524mm)</label>
+                </div>
+              </div>
+              <!--END OF ACCORDION BODY-->
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                What type of machining are you working with?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div class="beveling">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="beveling"
+                    name="beveling"
+                    id="beveling"
+                  />
+                  <label for="beveling">Beveling</label>
+                </div>
+                <div class="severing">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="severing"
+                    name="severing"
+                    id="severing"
+                  />
+                  <label for="severing">Severing</label>
+                </div>
+                <div class="facingSquaring">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="facingSquaring"
+                    name="facingSquaring"
+                    id="facingSquaring"
+                  />
+                  <label for="facingSquaring" class="facingSquaringGrayedOut"
+                    >Facing & Squaring</label
+                  >
+                </div>
+                <div class="bevelingSevering">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="bevelingSevering"
+                    name="bevelingSevering"
+                    id="bevelingSevering"
+                  />
+                  <label
+                    for="bevelingSevering"
+                    class="bevelingSeveringGrayedOut"
+                    >Beveling & Severing</label
+                  >
+                </div>
+              </div>
+              <!--END OF ACCORDION BODY-->
+            </div>
+            <!--END OF #questionThree-->
+          </div>
+          <!--END OF ACCORDING ITEM-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFour"
+              >
+                What material of pipe are you working with?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div class="carbonSteel">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="carbonSteel"
+                    name="carbonSteel"
+                    id="carbonSteel"
+                  />
+                  <label for="carbonSteel">Carbon Steel</label>
+                </div>
+                <div class="stainlessSteel">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="stainlessSteel"
+                    name="stainlessSteel"
+                    id="stainlessSteel"
+                  />
+                  <label for="stainlessSteel">Stainless Steel</label>
+                </div>
+              </div>
+              <!--END OF ACCORDION BODY-->
+            </div>
+            <!-- END OF #questionFour-->
+          </div>
+          <!--END OF ACCORDION ITEM-->
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFive"
+              >
+                How are you mounting this tool?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFive"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <div class="idMounted">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="idMounted"
+                    name="idMounted"
+                    id="idMounted"
+                  />
+                  <label for="idMounted">ID (Inner Diameter)</label>
+                </div>
+                <div class="odMounted">
+                  <input
+                    class="option form-check-input"
+                    type="checkbox"
+                    data-class="odMounted"
+                    name="odMounted"
+                    id="odMounted"
+                  />
+                  <label for="odMounted">OD (Outer Diameter)</label>
+                </div>
+              </div>
+              <!--END OF ACCORDION BODY-->
+            </div>
+            <!--END OF COLLAPSE FIVE-->
+          </div>
+          <!--END OF ACCORDION ITEM-->
+        </div>
+        <!--END OF ACCORDION-->
+      </div>
+      <!--END OF CONTAINER-->
+      <div class="scroll toolsCollection">
+        <div
+          class="tool col g-4 openPipe beveling carbonSteel stainlessSteel odMounted zeroToTwo"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="images/tools/201BA.png"
+                alt="Image of 201BA"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>201BA</h2>
+                <h3>
+                  Pipe Ranges:<br />
+                  .250"-2.000" <br />
+                  (6.4mm-50.8mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul class="typesofPower">
+                  <li>Air Power</li>
+                  <li>Corded Electric Power 110v</li>
+                  <li>Corded Electrical Power 220v</li>
+                </ul>
+              </div>
+              <!--END OF TOOL DESCRIPTION-->
+              <div class="learnMore">
+                <a
+                  href="https://www.tritool.com/product-catalog/201ba"
+                  target="_blank"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+              <!--END OF LEARN MORE-->
+            </div>
+            <!--END OF TOOL CONTENT-->
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe beveling carbonSteel stainlessSteel idMounted zeroToTwo twoToFive"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="images/tools/boilermaster.png"
+                alt="Image of BoilerMaster"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>Boilermaster</h2>
+                <h3>
+                  Pipe Ranges: <br />
+                  .610"-4.330" <br />
+                  (25.5mm-110.0mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Corded Electric Power 110v</li>
+                  <li>Corded Electrical Power 220v</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe beveling carbonSteel stainlessSteel idMounted zeroToTwo twoToFive"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="images/tools/202TS.png"
+                alt="Image of 202TS"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>202TS</h2>
+                <h3>
+                  Pipe Ranges: <br />.610"-4.330" <br />
+                  (25.5mm-110.0mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted zeroToTwo"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/602TSB.png"
+                alt="Image of 602TSB"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>602TSB</h2>
+                <h3>
+                  Pipe Ranges: <br />
+                  1.500"-2.000" <br />
+                  (38.1mm-50.8mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Corded Electric Power 110v</li>
+                  <li>Corded Electrical Power 220v</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe beveling carbonSteel stainlessSteel idMounted zeroToTwo twoToFive"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="images/tools/204B.png"
+                alt="Image of 204B"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>204B</h2>
+                <h3>
+                  Pipe Ranges: <br />0.610"-4.500" <br />
+                  (15.5mm-114.3mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Corded Electric Power 110v</li>
+                  <li>Corded Electrical Power 220v</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe beveling carbonSteel stainlessSteel idMounted zeroToTwo twoToFive fiveToTen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="images/tools/208B.png"
+                alt="Image of 208B"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>208B</h2>
+                <h3>
+                  Pipe Ranges: <br />
+                  1.503"-8.625" <br />
+                  (38.1mm-219.0mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Corded Electric Power 110v</li>
+                  <li>Corded Electrical Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe beveling stainlessSteel carbonSteel idMounted twoToFive fiveToTen tenToFourteen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="images/tools/214B.png"
+                alt="Image of 214B"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>214B</h2>
+                <h3>
+                  Pipe Ranges:<br />3.310"-14.000"<br />
+                  (84.0mm-355.6mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electric Power 110v</li>
+                  <li>Corded Electrical Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe beveling carbonSteel stainlessSteel idMounted fiveToTen tenToFourteen fourteenToTwenty twentyToThirty thirtyToFourty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="images/tools/216B.png"
+                alt="Image of 216B"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>216B</h2>
+                <h3>
+                  Pipe Ranges: <br />
+                  5.170"-32.000" <br />
+                  (131.3mm-735.3mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe beveling carbonSteel stainlessSteel idMounted fiveToTen tenToFourteen fourteenToTwenty twentyToThirty thirtyToFourty fortyToSixty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="images/tools/224B.png"
+                alt="Image of 224B"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>224B</h2>
+                <h3>
+                  Pipe Ranges:<br />6.183"-42.000" <br />(173.0mm-1066.8mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe beveling carbonSteel stainlessSteel idMounted tenToFourteen fourteenToTwenty twentyToThirty thirtyToFourty fortyToSixty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="images/tools/236B.png"
+                alt="Image of 236B"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>236B</h2>
+                <h3>
+                  Pipe Ranges:<br />11.433"-59.532"<br />(290.4mm-1521.1mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Hydraulic Power</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe beveling facingSquaring carbonSteel stainlessSteel idMounted twoToFive"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/surefire4.png"
+                alt="Image of Surefire4"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>Surefire4</h2>
+                <h3>Pipe Ranges:<br />2"-4" SCH 5/10 Range</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Corded Electric Power 110v</li>
+                  <li>Corded Electrical Power 220v</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe beveling facingSquaring carbonSteel stainlessSteel idMounted twoToFive fiveToTen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/surefire8.png"
+                alt="Image of Surefire8"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>Surefire8</h2>
+                <h3>Pipe Ranges:<br />3"-8" SCH 5/10 Range</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Corded Electric Power 110v</li>
+                  <li>Corded Electrical Power 220v</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted zeroToTwo"
+        >
+          <div class="bg-color">
+            <div>
+              <img
+                src="./images/tools/SBCM.png"
+                alt="Image of 601SBCM"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>601SBCM</h2>
+                <h3>Pipe Ranges:<br />.405"-1.315"<br />(10.3mm-33.4mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Cordless Electric Power DC</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted zeroToTwo twoToFive"
+        >
+          <div class="bg-color">
+            <div>
+              <img
+                src="./images/tools/SBCM.png"
+                alt="Image of 602SBCM"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>602SBCM</h2>
+                <h3>Pipe Ranges:<br />1.315"-2.375"<br />(33.4mm-60.3mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Cordless Electric Power DC</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted zeroToTwo twoToFive"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/SBCM.png"
+                alt="Image of 603SBCM"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>603SBCM</h2>
+                <h3>Pipe Ranges:<br />1.500"-3.000"<br />(38.1mm-76.2mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Cordless Electric Power DC</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted twoToFive"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/SBCM.png"
+                alt="Image of 603.5SBCM"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>603.5SBCM</h2>
+                <h3>Pipe Ranges:<br />2.875"-4.000"<br />(73.0mm-101.6mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Cordless Electric Power DC</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted zeroToTwo twoToFive"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/601TSB.png"
+                alt="Image of 601SBM"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>601SBM</h2>
+                <h3>Pipe Ranges:<br />.540"-1.315"<br />(13.7mm-33.4mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted zeroToTwo twoToFive"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/602-5SBM.png"
+                alt="Image of 602.5SBM"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>602.5SBM</h2>
+                <h3>Pipe Ranges:<br />1.315"-3.000"<br />(33.4mm-76.2mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted twoToFive"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/604SB.png"
+                alt="Image of 604SB"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>604SB</h2>
+                <h3>Pipe Ranges:<br />2.375"-4.500"<br />(60.3mm-114.3mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+          <!--End of background color-->
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted twoToFive fiveToTen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/604SB.png"
+                alt="Image of 606SB"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>606SB</h2>
+                <h3>Pipe Ranges:<br />2.375"-6.625"<br />(60.3mm-168.3mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted twoToFive fiveToTen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/604SB.png"
+                alt="Image of 608SB"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>608SB</h2>
+                <h3>Pipe Ranges:<br />4.500"-8.625"<br />(114.3mm-219.1mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted fiveToTen tenToFourteen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/604SB.png"
+                alt="Image of 610SB"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>610SB</h2>
+                <h3>Pipe Ranges:<br />6.625"-10.750"<br />(168.3mm-273.0mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted fiveToTen tenToFourteen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/604SB.png"
+                alt="Image of 612SB"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>612SB</h2>
+                <h3>Pipe Ranges:<br />8.625"-12.750"<br />(219.1mm-323.9mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted fiveToTen tenToFourteen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/RBL-G2.png"
+                alt="Image of 612RBL-G2"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>612RBL-G2</h2>
+                <h3>Pioe Ranges:<br />8.625"-12.750"<br />(219.1mm-323.9mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted fiveToTen tenToFourteen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/RBL-G2.png"
+                alt="Image of 614RBL-G2"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>614RBL-G2</h2>
+                <h3>Pipe Ranges:<br />7.000"-14.000"<br />(177.8mm-355.6mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted tenToFourteen fourteenToTwenty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/RBL-G2.png"
+                alt="Image of 616RBL-G2"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>616RBL-G2</h2>
+                <h3>
+                  Pipe Ranges:<br />10.750"-16.000"<br />(273.1mm-406.4mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted fourteenToTwenty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/RBL-G2.png"
+                alt="Image of 620RBL-G2"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>620RBL-G2</h2>
+                <h3>
+                  Pipe Ranges:<br />14.000"-20.000"<br />(355.6mm-508.0mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted tenToFourteen fourteenToTwenty twentyToThirty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/RBL-G2.png"
+                alt="Image of 624RBL-G2"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>624RBL-G2</h2>
+                <h3>
+                  Pipe Ranges:<br />18.000"-24.000"<br />(457.2mm-609.6mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted twentyToThirty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/RBL-G2.png"
+                alt="Image of 630RBL-G2"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>630RBL-G2</h2>
+                <h3>
+                  Pipe Ranges:<br />24.000"-30.000"<br />(609.6mm-762.0mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted thirtyToFourty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/RBL-G2.png"
+                alt="Image of 636RBL-G2"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>636RBL-G2</h2>
+                <h3>
+                  Pipe Ranges:<br />30.000"-36.000"<br />(762.0mm-914.4mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted thirtyToFourty fortyToSixty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="images/tools/RBL-G2.png"
+                alt="Image of 642RBL-G2"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>642RBL-G2</h2>
+                <h3>
+                  Pipe Ranges:<br />36.000"-42.000"<br />(914.4mm-1066.8mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted fortyToSixty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/RBL-G2.png"
+                alt="Image of 648RBL"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>648RBL</h2>
+                <h3>
+                  Pipe Ranges:<br />42.000"-48.000"<br />(1066.8mm-1219.2mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinePipe severing bevelingSevering carbonSteel stainlessSteel odMounted fortyToSixty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/RBL-G2.png"
+                alt="Image of 660RBL"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>660RBL</h2>
+                <h3>
+                  Pipe Ranges:<br />54.000"-60.000"<br />(1371.6mm-1524.0mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Air Power</li>
+                  <li>Hydraulic Power</li>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Servo Drive</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe facingSquaring stainlessSteel odMounted zeroToTwo"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/300MF.png"
+                alt="Image of 300MF"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>300MF</h2>
+                <h3>Pipe Ranges:<br />0.125"-0.750"<br />(3.2mm-19.1mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Cordless Electric Power DC</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe facingSquaring stainlessSteel odMounted zeroToTwo"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/300STS-1.png"
+                alt="Image of 300STS-1"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>300STS-1</h2>
+                <h3>Pipe Ranges:<br />0.125"-1.125"<br />(3.2mm-28.6mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Cordless Electric Power DC</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe facingSquaring stainlessSteel odMounted zeroToTwo twoToFive"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/300STS-2.png"
+                alt="Image of 300STS-2"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>300STS-2</h2>
+                <h3>Pipe Ranges:<br />0.188"-2.500"<br />(4.8mm-63.5mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Cordless Electric Power DC</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe facingSquaring stainlessSteel odMounted twoToFive"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/304.png"
+                alt="Image of 304TS"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>304TS</h2>
+                <h3>Pipe Ranges:<br />0.250"-4.500"<br />(6.35mm-114.3mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Cordless Electric Power DC</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openpipe facingSquaring stainlessSteel odMounted zeroToTwo twoToFive fiveToTen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/306.png"
+                alt="Image of 306TS"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>306TS</h2>
+                <h3>Pipe Ranges:<br />1.000"-6.630"<br />(25.4mm-168.3mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                  <li>Cordless Electric Power DC</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinepipe severing stainlessSteel odMounted zeroToTwo"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/572AC.png"
+                alt="Image of 572AC"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>572AC</h2>
+                <h3>Pipe Ranges:<br />0.250"-2.000"<br />(6.4mm-50.8mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 inlinepipe severing stainlessSteel odMounted twoToFive fiveToTen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/576Ac.png"
+                alt="Image of 576AC tool"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>576AC</h2>
+                <h3>Pipe Ranges:<br />2.000"-6.625"<br />(50.8mm-168.3mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Corded Electrical Power 110v</li>
+                  <li>Corded Electric Power 220v</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openpipe beveling carbonSteel odMounted twoToFive fiveToTen tenToFourteen"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/pfm614.png"
+                alt="Image of Masterboiler"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>PFM614</h2>
+                <h3>Pipe Ranges:<br />4.000"-14.000"<br />(101.6mm-355.6mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Hydraulic Power</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openpipe beveling carbonSteel idMounted fiveToTen tenToFourteen fourteenToTwenty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/pfm816.png"
+                alt="Image of Masterboiler"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>PFM816</h2>
+                <h3>Pipe Ranges:<br />8.329"-16.000"<br />(209.3mm-406.4mm)</h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Hydraulic Power</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openPipe beveling carbonSteel idMounted tenToFourteen fourteenToTwenty twentyToThirty thirtyToFourty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/PFM1632.png"
+                alt="Image of Masterboiler"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>PFM1632</h2>
+                <h3>
+                  Pipe Ranges:<br />13.900"-36.000"<br />(353.1mm-914.4mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Hydraulic Power</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openpipe beveling carbonSteel idMounted twentyToThirty thirtyToFourty fortyToSixty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/pfm3248.png"
+                alt="Image of PFM 3248 tool"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>PFM3248</h2>
+                <h3>
+                  Pipe Ranges:<br />29.500"-48.000"<br />(749.3mm-1219.2mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Hydraulic Power</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tool col g-4 openpipe beveling carbonSteel idMounted twentyToThirty thirtyToFourty fortyToSixty"
+        >
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/terramax.png"
+                alt="Image of Terramax tool"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>Terramax</h2>
+                <h3>
+                  Pipe Ranges:<br />20.809"-48.000"<br />(258.5mm-1219.2mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Hydraulic Power</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Learn more<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tool col g-4 errorCard">
+          <div class="bg-color">
+            <div class="toolImage">
+              <img
+                src="./images/tools/201BA.png"
+                alt="Image of Terramax tool"
+                class="topRounded"
+              />
+            </div>
+            <div class="toolContent">
+              <div class="toolDescription">
+                <h2>There are no tools that meet this criteria.</h2>
+                <h3>
+                  Pipe Ranges:<br />20.809"-48.000"<br />(258.5mm-1219.2mm)
+                </h3>
+                <br />
+                <h3 class="powerSupply">Power Supply:</h3>
+                <ul>
+                  <li>Hydraulic Power</li>
+                </ul>
+              </div>
+              <div class="learnMore">
+                <a href="#"
+                  ><strong
+                    >Contact Us Today!<svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="20"
+                      fill="currentColor"
+                      class="learnMoreArrow bi bi-arrow-right"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"
+                      /></svg></strong
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--END OF TOOL COLLECTION CONTAINER-->
+    </div>
+    <!--END OF CONTAINER-->
+    <!--SCRIPT BELOW-->
+    <script type="text/javascript">
+      // params holds selected .option class names
+      var params = [];
+      var counter = 0;
+      $(".errorCard").hide();
+      // Option click event listener
+      $(".option").on({
+        click: function (event) {
+          if ($(this).is(":checked")) {
+            //add clicked option data attribute class to the params array
+            params.push("." + $(this).data("class"));
+            //increment checkbox counter by one
+            counter++;
+            //alert(counter);
+          } else {
+            params.splice($.inArray("." + $(this).data("class"), params), 1);
+            //decrement checkbox counter by one
+            counter--;
+            //alert(counter);
+          }
+          //Then we can show all the tools that are in our params with this line of code, declares class names
+          //alert(params.join(""));
+          $(params.join("")).show();
+          //Then we can hide all the tools that are not in our params with this line of code
+          $(".tool").not(params.join("")).hide();
+          if (counter === 0) {
+            $(".tool").show();
+          }
+          // if no results show up, show this Error card
+          if (datanumber == 0) {
+            lblResultMsg.Text =
+              "There were no records found to match your search.";
+            lblResultMsg.Visible = true;
+          } else {
+            lblResultMsg.Text = "";
+            lblResultMsg.Visible = false;
+
+            // do your data binding
+          }
+        },
+      });
+    </script>
+  </body>
+</html>
